@@ -7,9 +7,24 @@ import * as Actions from '../actions/app';
 import Greeting from '../components/greeting';
 
 export class Container extends Component {
+    constructor(props) {
+        super(props)
+        this.getGreeting = this.getGreeting.bind(this)
+    }
+
+    getGreeting = () => {
+        this.props.action.getGreeting();
+    }
+
     render() {
+        const { greeting, language, country } = this.props.app
         return (
-            <Greeting />
+            <Greeting
+                greeting={greeting}
+                language={language}
+                country={country}
+                getGreeting={this.getGreeting}
+            />
         )
     }
 }

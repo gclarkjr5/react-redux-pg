@@ -1,5 +1,7 @@
 {
     "app": {
-        "greeting": "Hello World"
+        "greeting": null,
+        "country": null,
+        "language": null
     }
 }

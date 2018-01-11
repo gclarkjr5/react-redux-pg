@@ -4,9 +4,11 @@ const mongoose = require('mongoose');
 
 // define schema
 const greetingSchema = new mongoose.Schema({
-    greeting: String,
-    language: String
+    language: String,
+    country: String,
+    translation: String
 })
 
 // export the model
-module.exports = mongoose.model('greeting', greetingSchema, 'greeting');
+// the model will be using the greetings db and the test collection
+module.exports = mongoose.model('greetings', greetingSchema, 'test');

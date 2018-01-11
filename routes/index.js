@@ -10,17 +10,18 @@ router.use(bodyParser.urlencoded({extended: false}));
 
 router.route(`/greeting`)
     .get((req, res) => {
+
         // Get Greeting
-        greeting.find((err, payload) => {
+        greeting.find({}, (err, payload) => {
             if(err) {
                 res.status(500).send({error: err})
             }
-            res.json("Hello")
+            res.json(payload)
         })
 
         // greeting.count().exec((err, count) => {
         //     // Get a random entry
-        //     const random = Math.floor(Math.random() * count)
+        //     const random = Math.round(Math.random() * count)
 
         //     // Get all greetings but return only one randomly selected
         //     greeting.findOne().skip(random).exec((err, result) => {
@@ -30,13 +31,13 @@ router.route(`/greeting`)
     })
     .post((req, res) => {
         // Post Greeting
-        let newGreeting = new greeting({greeting: "Welcome", language: "English"})
-        newGreeting.save((err, createdGreeting) => {
-            if(err) {
-                res.status(500).send(err);
-            }
-            res.status(200).json(createdGreeting)
-        })
+        // let newGreeting = new greeting({})
+        // newGreeting.save((err, createdGreeting) => {
+        //     if(err) {
+        //         res.status(500).send(err);
+        //     }
+        //     res.status(200).json(createdGreeting)
+        // })
 
     })
     .put((req, res) => {

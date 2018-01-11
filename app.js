@@ -15,8 +15,8 @@ const routes = require('./routes');
 // make a new express app
 const app = express();
 
-// connection string to dockerized mongodb
-const connectionString = "mongodb://127.0.0.1:27017";
+// connection string to dockerized mongodb at the "greetings" db
+const connectionString = "mongodb://localhost:27017/greetings";
 
 // connect to db
 mongoose.connect(connectionString);
