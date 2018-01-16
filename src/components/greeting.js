@@ -13,7 +13,8 @@ class Greeting extends Component {
 
         return (
             <div>
-                <h1>{this.props.greeting}</h1>
+                <h1>Welcome</h1>
+                <h2>{this.props.greeting}</h2>
                 <h3>Language: {this.props.language}</h3>
                 <p>Spoken in: {this.props.country}</p>
             </div>

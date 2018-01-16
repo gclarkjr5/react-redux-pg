@@ -1,0 +1,20 @@
+version: "3.4"
+services:
+  app:
+    container_name: create-react-redux-app
+    build: . # build in the current directory (Dockerfile in current dir)
+    ports:
+      - "4555:3000" # Host:Container port mapping; Create-React-App default port listens on 3000
+    links:
+      - mongo # link to the mongo service defined below.. MAGIC!
+    volumes:
+      - .:/usr/src/app # Host:Container; map current directory as a local volume to within app container at /usr/src/app (hot reloading)
+    depends_on:
+      - mongo # this container will depend on the build of the mongo service below
+  mongo:
+    container_name: mongo
+    image: mongo
+    volumes:
+      - ./data:/data/db # Host:Container; map './data' directory as a local volume to within mongo container at /data/db
+    ports:
+      - "27017:27017" # Host:Container port mapping; Mongo default port listens on 27017

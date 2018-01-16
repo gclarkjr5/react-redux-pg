@@ -1,0 +1,687 @@
+[
+  {
+    "language": "AFRIKAANS",
+    "country": "South Africa",
+    "translation": "welkom"
+  },
+  {
+    "language": "ALBANIAN",
+    "country": "Albania, Kosovo, Macedonia",
+    "translation": "mir� se vini"
+  },
+  {
+    "language": "ALSATIAN",
+    "country": "France (Alsace)",
+    "translation": "welkomma"
+  },
+  {
+    "language": "ARABIC",
+    "country": "Maghreb, Near East",
+    "translation": "مرحبا (marhaban)"
+  },
+  {
+    "language": "ARMENIAN",
+    "country": "Armenia, Armenian Highlands",
+    "translation": "bari galoust"
+  },
+  {
+    "language": "AZERBAIJANI",
+    "country": "Azerbaijan, Russia (Dagestan), Iran",
+    "translation": "xos gelmissiniz"
+  },
+  {
+    "language": "BAMBARA",
+    "country": "Mali",
+    "translation": "i bisimila"
+  },
+  {
+    "language": "BAOUL�",
+    "country": "Ivory Coast",
+    "translation": "akwaba"
+  },
+  {
+    "language": "BASQUE",
+    "country": "Spain, France",
+    "translation": "ongi etorri"
+  },
+  {
+    "language": "BELARUSIAN",
+    "country": "Belarus",
+    "translation": "Шчыра запрашаем (ščyra zaprašajem)"
+  },
+  {
+    "language": "BENGALI",
+    "country": "Bangladesh, India",
+    "translation": "swagata"
+  },
+  {
+    "language": "BERBER",
+    "country": "Algeria, Mali, Niger",
+    "translation": "amrehba sisswène"
+  },
+  {
+    "language": "BOBO",
+    "country": "Burkina Faso, Mali",
+    "translation": "ani ki�"
+  },
+  {
+    "language": "BOSNIAN",
+    "country": "Bosnia and Herzegovina, Serbia, Montenegro, Kosovo",
+    "translation": "dobro do�li"
+  },
+  {
+    "language": "BRETON",
+    "country": "France (Bretagne)",
+    "translation": "degemer mad"
+  },
+  {
+    "language": "BULGARIAN",
+    "country": "Bulgaria, Turkey, Romania",
+    "translation": "добре дошъл"
+  },
+  {
+    "language": "BURMESE",
+    "country": "Myanmar",
+    "translation": "kyo tzo pa eit"
+  },
+  {
+    "language": "CATALAN",
+    "country": "Spain (Catalonia, Balearic Islands, Valencia), Andorra",
+    "translation": "benvinguts"
+  },
+  {
+    "language": "CHECHEN",
+    "country": "Russia (Chechen Republic)",
+    "translation": "marsha vog'iyla"
+  },
+  {
+    "language": "CHEROKEE",
+    "country": "USA (Oklahoma)",
+    "translation": "ulihelisdi"
+  },
+  {
+    "language": "CHINESE (MANDARIN)",
+    "country": "China, Taiwan, Singapore",
+    "translation": "欢迎你来 [insert place] (huan ying ni lai [place])"
+  },
+  {
+    "language": "CORSICAN",
+    "country": "France (Corse), Italy (Sardiania)",
+    "translation": "bonavinuta"
+  },
+  {
+    "language": "CROATIAN",
+    "country": "Croatia, Bosnia and Herzegovina",
+    "translation": "dobrodošli"
+  },
+  {
+    "language": "CZECH",
+    "country": "Czech Republic",
+    "translation": "vítejte"
+  },
+  {
+    "language": "DANISH",
+    "country": "Denmark, Germany (Southern Schleswig), Greenland, Faroe Islands",
+    "translation": "velkommen"
+  },
+  {
+    "language": "DUALA",
+    "country": "Cameroon",
+    "translation": "p� la bwam / bep�y�di ba bwam"
+  },
+  {
+    "language": "DUTCH",
+    "country": "Netherlands, Belgium, Suriname",
+    "translation": "welkom"
+  },
+  {
+    "language": "ENGLISH",
+    "country": "UK, Ireland, USA, Canada, Australia, New Zealand, South Africa",
+    "translation": "welcome"
+  },
+  {
+    "language": "ESPERANTO",
+    "country": "[constructed language]",
+    "translation": "bonvenon"
+  },
+  {
+    "language": "ESTONIAN",
+    "country": "Estonia",
+    "translation": "tere tulemast"
+  },
+  {
+    "language": "EWE",
+    "country": "Ghana, Togo",
+    "translation": "woezon"
+  },
+  {
+    "language": "FAROESE",
+    "country": "Faroe Islands, Denmark",
+    "translation": "v�lkomin"
+  },
+  {
+    "language": "FINNISH",
+    "country": "Finland, Sweden",
+    "translation": "tervetuloa"
+  },
+  {
+    "language": "FLEMISH",
+    "country": "Belgium (Flanders)",
+    "translation": "welkom"
+  },
+  {
+    "language": "FRENCH",
+    "country": "France, Canada (Quebec), Belgium (Wallonia), Switzerland (Romandie), Monaco, Luxembourg",
+    "translation": "bienvenue"
+  },
+  {
+    "language": "FRISIAN",
+    "country": "Netherlands, Germany",
+    "translation": "wolkom"
+  },
+  {
+    "language": "FRIULAN",
+    "country": "Italy (Friuli)",
+    "translation": "binvignut"
+  },
+  {
+    "language": "GA",
+    "country": "Ghana",
+    "translation": "awaa waa atuu"
+  },
+  {
+    "language": "GALICIAN",
+    "country": "Spain (Galicia)",
+    "translation": "benvido"
+  },
+  {
+    "language": "GALLO",
+    "country": "France (Brittany, Normandy)",
+    "translation": "bin la v'nu"
+  },
+  {
+    "language": "GEORGIAN",
+    "country": "Georgia",
+    "translation": "mobrdzandit / ketili ikhos tkveni mobrdzaneba"
+  },
+  {
+    "language": "GERMAN",
+    "country": "Germany, Austria, Switzerland, Italy (South Tyrol), Belgium, Liechtenstein, Luxembourg",
+    "translation": "herzlich willkommen"
+  },
+  {
+    "language": "GOTHIC",
+    "country": "Eastern Europe, Italy, Gallia Aquitania, Gallia Narbonensis, Hispania, Crimea - extinct",
+    "translation": "waila andanems (to a man) / waila andanema (to a woman) / waila andanemai (plural m.) / waila andanemos (plural f.)"
+  },
+  {
+    "language": "GREEK",
+    "country": "Greece, Cyprus",
+    "translation": "Καλώς ήλθατε (kalos ilthate)"
+  },
+  {
+    "language": "GUARANI",
+    "country": "Paraguay",
+    "translation": "eguah� por�"
+  },
+  {
+    "language": "GUN",
+    "country": "Benin, Nigeria",
+    "translation": "mikouab�"
+  },
+  {
+    "language": "HAITIAN CREOLE",
+    "country": "Haiti",
+    "translation": "bienvéni"
+  },
+  {
+    "language": "HAWAIIAN",
+    "country": "USA (Hawaii)",
+    "translation": "e komo mai"
+  },
+  {
+    "language": "HEBREW",
+    "country": "Israel",
+    "translation": "baroukh haba (to a man) / brouha aba-a (to a woman)"
+  },
+  {
+    "language": "HINDI",
+    "country": "India",
+    "translation": "swaagat / aap ka swaagat hein"
+  },
+  {
+    "language": "HMONG",
+    "country": "China, Vietnam, Laos, Myanmar, Thailand",
+    "translation": "tos txais / nyob zou tos txais"
+  },
+  {
+    "language": "HUNGARIAN",
+    "country": "Hungary, Romania, Slovakia, Serbia",
+    "translation": "�dv�zlet"
+  },
+  {
+    "language": "ICELANDIC",
+    "country": "Iceland",
+    "translation": "velkomin"
+  },
+  {
+    "language": "IGBO",
+    "country": "Nigeria, Equatorial Guinea",
+    "translation": "nnoo / i biala"
+  },
+  {
+    "language": "INDONESIAN",
+    "country": "Indonesia",
+    "translation": "selamat datang"
+  },
+  {
+    "language": "IRISH GAELIC",
+    "country": "Ireland",
+    "translation": "f�ilte"
+  },
+  {
+    "language": "ITALIAN",
+    "country": "Italy, San Marino, Switzerland",
+    "translation": "benvenuto (m) / benvenuta (f) / benvenuti (m pl) / benvenute (f pl)"
+  },
+  {
+    "language": "JAPANESE",
+    "country": "Japan",
+    "translation": "y�koso"
+  },
+  {
+    "language": "KABYLE",
+    "country": "Algeria (Kabylie)",
+    "translation": "amrehva ysswène / l'aaslama"
+  },
+  {
+    "language": "KHMER",
+    "country": "Cambodia, Thailand, Vietnam",
+    "translation": "chum reap suor (formal) / suor sdei (casual)"
+  },
+  {
+    "language": "KIKONGO",
+    "country": "Democratic Republic of the Congo, the Republic of the Congo, Angola",
+    "translation": "nku�zulu yambote"
+  },
+  {
+    "language": "KINYARWANDA",
+    "country": "Rwanda",
+    "translation": "murakaza neza"
+  },
+  {
+    "language": "KOREAN",
+    "country": "Korea, North Korea",
+    "translation": "환영합니다 (hwan yung hap ni da)"
+  },
+  {
+    "language": "KOTOKOLI",
+    "country": "Togo, Ghana, Benin",
+    "translation": "nod�"
+  },
+  {
+    "language": "KURDISH",
+    "country": "Turkey, Syria, Iraq, Iran",
+    "translation": "bi xer hati"
+  },
+  {
+    "language": "LAO",
+    "country": "Laos, Thailand",
+    "translation": "gnindi ton hap"
+  },
+  {
+    "language": "LARI",
+    "country": "Republic of the Congo",
+    "translation": "nku�zulu yambote"
+  },
+  {
+    "language": "LATIN",
+    "country": "Roman Kingdom - extinct",
+    "translation": "(per) gratus mihi venis"
+  },
+  {
+    "language": "LATVIAN",
+    "country": "Latvia",
+    "translation": "laipni lūdzam"
+  },
+  {
+    "language": "ARABIC (LEBANESE)",
+    "country": "Lebanon",
+    "translation": "أهلا وسهلا (ahla w sahla)"
+  },
+  {
+    "language": "LIGURIAN",
+    "country": "Italy (Liguria)",
+    "translation": "benvegn�o / benvegn�i"
+  },
+  {
+    "language": "LINGALA",
+    "country": "Democratic Republic of the Congo, Republic of the Congo, Angola, Central African Republic",
+    "translation": "boyeyi bolamu"
+  },
+  {
+    "language": "LITHUANIAN",
+    "country": "Lithuania",
+    "translation": "sveiki atvykę"
+  },
+  {
+    "language": "LOW SAXON",
+    "country": "Germany (Northern Germany), Netherlands",
+    "translation": "welkum"
+  },
+  {
+    "language": "LUXEMBOURGISH",
+    "country": "Luxembourg",
+    "translation": "wëllkom"
+  },
+  {
+    "language": "MACEDONIAN",
+    "country": "Macedonia",
+    "translation": "добредојде (dobredojde)"
+  },
+  {
+    "language": "MALAGASY",
+    "country": "Madagascar",
+    "translation": "tonga soa"
+  },
+  {
+    "language": "MALAY",
+    "country": "Malaysia, Brunei, Singapore",
+    "translation": "selamat datang"
+  },
+  {
+    "language": "MALAYALAM",
+    "country": "India (Kerala)",
+    "translation": "swagatham"
+  },
+  {
+    "language": "MALTESE",
+    "country": "Malta",
+    "translation": "merħba"
+  },
+  {
+    "language": "MAORI",
+    "country": "New Zealand",
+    "translation": "haere mai"
+  },
+  {
+    "language": "MBEMBE",
+    "country": "Nigeria",
+    "translation": "kakwa o"
+  },
+  {
+    "language": "MINA",
+    "country": "Cameroon",
+    "translation": "miawezon"
+  },
+  {
+    "language": "MONGOLIAN",
+    "country": "Mongolia",
+    "translation": "Тавтай морилогтун (tavtai morilogtun)"
+  },
+  {
+    "language": "MOR�",
+    "country": "Burkina Faso",
+    "translation": "ne y waoongo"
+  },
+  {
+    "language": "NEPALI",
+    "country": "Nepal, India, Bhutan, Myanmar",
+    "translation": "namaste"
+  },
+  {
+    "language": "NORMAN",
+    "country": "France (Normandy)",
+    "translation": "byivenun / la vilkoume"
+  },
+  {
+    "language": "NORMAN (GUERN�SIAIS)",
+    "country": "Channel Islands (Guernsey)",
+    "translation": "bianvnu"
+  },
+  {
+    "language": "NORMAN (J�RRIAIS)",
+    "country": "Channel Islands (Jersey)",
+    "translation": "bein'vnu"
+  },
+  {
+    "language": "NORWEGIAN",
+    "country": "Norway",
+    "translation": "velkommen"
+  },
+  {
+    "language": "OCCITAN",
+    "country": "France, Spain, Italy, Monaco",
+    "translation": "benvenguts"
+  },
+  {
+    "language": "OLD NORSE",
+    "country": "Scandinavia - extinct",
+    "translation": "velkom"
+  },
+  {
+    "language": "OSSETIAN",
+    "country": "Russia (North Ossetia-Alania), Georgia (South Ossetia)",
+    "translation": "Табуафси (tabuafši)"
+  },
+  {
+    "language": "PAPIAMENTO",
+    "country": "Aruba, Bonaire, Cura�ao",
+    "translation": "bon bini"
+  },
+  {
+    "language": "PERSIAN (FARSI)",
+    "country": "Iran",
+    "translation": "خوش آمدید یا (khosh �madid - formal) / خوش اومدی (khoshumadi - informal)"
+  },
+  {
+    "language": "POLISH",
+    "country": "Poland, Lithuania, Belarus, Ukraine, Czech Republic, Slovakia",
+    "translation": "witaj (sing.) / witajcie (pl.)"
+  },
+  {
+    "language": "PORTUGUESE",
+    "country": "Portugal, Brazil, Cape Verde, Guinea-Bissau, Mozambique, Angola, S�o Tom� and Pr�ncipe",
+    "translation": "bem-vindo"
+  },
+  {
+    "language": "ROMANI",
+    "country": "Romania, Europe",
+    "translation": "mishto-avilian t�"
+  },
+  {
+    "language": "ROMANIAN",
+    "country": "Romania, Moldova, Serbia, Ukraine",
+    "translation": "bine ai venit (sing.) / bine aţi venit (pl.)"
+  },
+  {
+    "language": "RUSSIAN",
+    "country": "Russia, Belarus, Estonia, Latvia, Lithuania, Ukraine, Moldova, Armenia, Azerbaijan, Georgia, Central Asia",
+    "translation": "добро пожаловать (dobro pojalovat)"
+  },
+  {
+    "language": "SAMOAN",
+    "country": "Samoan Islands",
+    "translation": "afio mai, susu mai ma maliu mai"
+  },
+  {
+    "language": "SARDINIAN",
+    "country": "Italy (Sardinia)",
+    "translation": "ben�nnidu (logudorese) / beni ben�u (campidanese)"
+  },
+  {
+    "language": "SCOTTISH GAELIC",
+    "country": "UK (Scotland)",
+    "translation": "f�ilte"
+  },
+  {
+    "language": "SERBIAN",
+    "country": "Serbia, Bosnia and Herzegovina, Croatia, Montenegro",
+    "translation": "dobrodošli"
+  },
+  {
+    "language": "SHIMAORE",
+    "country": "France (Mayotte)",
+    "translation": "karibu"
+  },
+  {
+    "language": "SHONA",
+    "country": "Zimbabwe",
+    "translation": "wauya (plural: mauya)"
+  },
+  {
+    "language": "SINDHI",
+    "country": "Pakistan (Sindh)",
+    "translation": "bhali karay aaya"
+  },
+  {
+    "language": "SINHALESE",
+    "country": "Sri Lanka",
+    "translation": "aayuboovan"
+  },
+  {
+    "language": "SLOVAK",
+    "country": "Slovakia",
+    "translation": "vitame vás / vitajte"
+  },
+  {
+    "language": "SLOVENE",
+    "country": "Slovenia, Italy, Austria, Croatia, Hungary, Serbia",
+    "translation": "dobrodošel (to a man) / dobrodošla (2 men) / dobrodošli (3 men or more)"
+  },
+  {
+    "language": "SOBOTA",
+    "country": "Slovenia",
+    "translation": "zupinje z te videtite"
+  },
+  {
+    "language": "SOMALI",
+    "country": "Somalia, Ethiopia, Djibouti, Kenya",
+    "translation": "soo dhawaw"
+  },
+  {
+    "language": "SPANISH",
+    "country": "Spain, Hispanic America, Equatorial Guinea",
+    "translation": "bienvenido (m) / bienvenida (f) / bienvenidos (pl)"
+  },
+  {
+    "language": "SUNDANESE",
+    "country": "Indonesia",
+    "translation": "wilujeng sumping"
+  },
+  {
+    "language": "SWAHILI",
+    "country": "Tanzania, Democratic Republic of the Congo, Kenya, Uganda",
+    "translation": "karibu (addressing 1 pers.) / karibuni"
+  },
+  {
+    "language": "SWEDISH",
+    "country": "Sweden, Finland",
+    "translation": "välkommen"
+  },
+  {
+    "language": "SWISS GERMAN",
+    "country": "Switzerland",
+    "translation": "h�rzliche w�ikomme"
+  },
+  {
+    "language": "TAGALOG",
+    "country": "Philippines",
+    "translation": "maligayang pagdating"
+  },
+  {
+    "language": "TAHITIAN",
+    "country": "France (Society Islands)",
+    "translation": "maeva / manava"
+  },
+  {
+    "language": "TAMIL",
+    "country": "India, Sri Lanka",
+    "translation": "nal-varravu"
+  },
+  {
+    "language": "TATAR",
+    "country": "Russia (Tatarstan)",
+    "translation": "rahim itegez"
+  },
+  {
+    "language": "TELUGU",
+    "country": "India (Andhra Pradesh, Telangana)",
+    "translation": "swagatham"
+  },
+  {
+    "language": "THAI",
+    "country": "Thailand",
+    "translation": "ยินดีต้อนรับ (yindii ton rap)"
+  },
+  {
+    "language": "TIBETAN",
+    "country": "China (Tibet), Nepal",
+    "translation": "tashi delek"
+  },
+  {
+    "language": "TONGAN",
+    "country": "Tonga",
+    "translation": "malo e lelei"
+  },
+  {
+    "language": "TSHILUBA",
+    "country": "Democratic Republic of the Congo",
+    "translation": "difika dilenga"
+  },
+  {
+    "language": "TURKISH",
+    "country": "Turkey, Cyprus, Greece",
+    "translation": "hoş geldiniz"
+  },
+  {
+    "language": "UDMURT",
+    "country": "Russia (Udmurtia)",
+    "translation": "gazhasa oetiśkom"
+  },
+  {
+    "language": "UKRAINIAN",
+    "country": "Ukraine",
+    "translation": "Ласкаво просимо (laskavo prosymo)"
+  },
+  {
+    "language": "URDU",
+    "country": "Pakistan, India",
+    "translation": "khush amdeed"
+  },
+  {
+    "language": "UZBEK",
+    "country": "Uzbekistan, Afghanistan",
+    "translation": "hush kelibsiz"
+  },
+  {
+    "language": "VIETNAMESE",
+    "country": "Vietnam",
+    "translation": "ch�o mừng (�ng, b�, c� : Mr, Mrs, Miss) mới �ến"
+  },
+  {
+    "language": "WALLOON (\"betchfess�s\" spelling)",
+    "country": "Belgium",
+    "translation": "b�nvnou (b�nvnowe) / wilicome"
+  },
+  {
+    "language": "WELSH",
+    "country": "UK (Wales)",
+    "translation": "croeso"
+  },
+  {
+    "language": "ANTILLEAN CREOLE",
+    "country": "France (French Antilles)",
+    "translation": "bel bonjou"
+  },
+  {
+    "language": "WOLOF",
+    "country": "Senegal, Gambia, Mauritania",
+    "translation": "dalal ak diam"
+  },
+  {
+    "language": "YORUBA",
+    "country": "Nigeria, Benin",
+    "translation": "�kouab� / �kab�"
+  }
+]

@@ -16,7 +16,7 @@ const routes = require('./routes');
 const app = express();
 
 // connection string to dockerized mongodb at the "greetings" db
-const connectionString = "mongodb://localhost:27017/greetings";
+const connectionString = "mongodb://mongo:27017/greetings";
 
 // connect to db
 mongoose.connect(connectionString);
@@ -32,8 +32,8 @@ mongoose.connection
     })
 
 // helper libraries
-// app.use(bodyParser.json());
-// app.use(bodyParser.urlencoded());
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded());
 
 // host build directory at the root of our site
 // this is where transpiled react app sits
