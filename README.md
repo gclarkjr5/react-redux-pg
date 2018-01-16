@@ -9,21 +9,20 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Folder Structure
 
-data/
-
-models/
-public/
-routes/
-src/
-app.js
-Dockerfile
-docker-compose.yml
-docker-start.sh
-.dockerignore
-.gitignore
-package.json
-package-lock.json
-README.md
+data/  
+models/  
+public/  
+routes/  
+src/  
+app.js  
+Dockerfile  
+docker-compose.yml  
+docker-start.sh  
+.dockerignore  
+.gitignore  
+package.json  
+package-lock.json  
+README.md  
 
 ## Getting Started
 1. Clone this repo 'git clone https://github.com/gclarkjr5/react-redux_boilerplate_restful.git'
