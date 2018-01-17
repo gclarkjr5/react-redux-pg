@@ -1,20 +1,24 @@
+### *** Indentation is very important *** ###
+
 version: "3.4"
 services:
   app:
-    container_name: create-react-redux-app
-    build: . # build in the current directory (Dockerfile in current dir)
+    container_name: create-react-redux-app 
+    build: # build the image
+      context: . # build in the current directory
+      dockerfile: Dockerfile # Dockerfile in current dir
+    restart: always
     ports:
-      - "4555:3000" # Host:Container port mapping; Create-React-App default port listens on 3000
-    links:
-      - mongo # link to the mongo service defined below.. MAGIC!
+      - "3000:3000" # Host:Container port mapping; Create-React-App default port listens on 3000
     volumes:
-      - .:/usr/src/app # Host:Container; map current directory as a local volume to within app container at /usr/src/app (hot reloading)
+      - ./app:/usr/src/app # Host:Container; map current directory as a local volume to within app container at /usr/src/app (hot reloading)
+      - /usr/src/app/node_modules # Make node_modules a volume within the container (necessary for when host directory copies into container)
     depends_on:
       - mongo # this container will depend on the build of the mongo service below
   mongo:
     container_name: mongo
     image: mongo
     volumes:
-      - ./data:/data/db # Host:Container; map './data' directory as a local volume to within mongo container at /data/db
-    ports:
-      - "27017:27017" # Host:Container port mapping; Mongo default port listens on 27017
+      - ./app/data:/data/db # Host:Container; map './data' directory as a local volume to within mongo container at /data/db
+    # ports:
+    #   - "27017:27017" # Host:Container port mapping; Mongo default port listens on 27017 (Use if u want to expose mongo to the host)
