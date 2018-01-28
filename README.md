@@ -8,16 +8,16 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - [Docker-Compose](https://docs.docker.com/compose/install/)
 
 ## Folder Structure
-app/
+app/  
     models/  
     public/  
     routes/  
-    src/
-    app.js
+    src/  
+    app.js  
     package.json  
-    package-lock.json
-sample_data/
-    welcomes.json
+    package-lock.json  
+sample_data/  
+    welcomes.json  
 Dockerfile  
 docker-compose.yml  
 addData.sh  
