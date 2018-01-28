@@ -8,23 +8,26 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - [Docker-Compose](https://docs.docker.com/compose/install/)
 
 ## Folder Structure
-
-data/  
-models/  
-public/  
-routes/  
-src/  
-app.js  
+app/
+    models/  
+    public/  
+    routes/  
+    src/
+    app.js
+    package.json  
+    package-lock.json
+sample_data/
+    welcomes.json
 Dockerfile  
 docker-compose.yml  
-docker-start.sh  
+addData.sh  
 .dockerignore  
-.gitignore  
-package.json  
-package-lock.json  
+.gitignore    
 README.md  
 
 ## Getting Started
-1. Clone this repo 'git clone https://github.com/gclarkjr5/react-redux_boilerplate_restful.git'
-2. Run the bash script 'docker-start.sh'
-- Change the location of the 'docker-compose.yml' file within the script if needed.
+1. Clone this repo 'git clone https://github.com/gclarkjr5/react-redux_boilerplate_restful.git create-react-redux-mongo'
+2. cd create-react-redux-mongo
+3. docker-compose up -d
+4. Run the bash script ./addData.sh
+- Change the location of the sample json file within the script to its actual location

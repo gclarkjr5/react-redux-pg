@@ -3,7 +3,7 @@
 version: "3.4"
 services:
   app:
-    container_name: create-react-redux-app 
+    container_name: create-react-redux
     build: # build the image
       context: . # build in the current directory
       dockerfile: Dockerfile # Dockerfile in current dir
@@ -14,11 +14,7 @@ services:
       - ./app:/usr/src/app # Host:Container; map current directory as a local volume to within app container at /usr/src/app (hot reloading)
       - /usr/src/app/node_modules # Make node_modules a volume within the container (necessary for when host directory copies into container)
     depends_on:
-      - mongo # this container will depend on the build of the mongo service below
-  mongo:
+      - db # this container will depend on the build of the mongo service below
+  db:
     container_name: mongo
     image: mongo
-    volumes:
-      - ./app/data:/data/db # Host:Container; map './data' directory as a local volume to within mongo container at /data/db
-    # ports:
-    #   - "27017:27017" # Host:Container port mapping; Mongo default port listens on 27017 (Use if u want to expose mongo to the host)

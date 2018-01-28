@@ -4,9 +4,19 @@ const mongoose = require('mongoose');
 
 // define schema
 const greetingSchema = new mongoose.Schema({
-    language: String,
-    country: String,
-    translation: String
+    language: {
+        type: String,
+        required: true,
+        unique: true
+    },
+    country: {
+        type: String,
+        required: true,
+    },
+    translation: {
+        type: String,
+        required: true,
+    }
 })
 
 // export the model
