@@ -28,6 +28,6 @@ README.md
 ## Getting Started
 1. Clone this repo 'git clone https://github.com/gclarkjr5/react-redux_boilerplate_restful.git create-react-redux-mongo'
 2. cd create-react-redux-mongo
-3. docker-compose up -d
+3. Run docker-compose up -d
 4. Run the bash script ./addData.sh
 - Change the location of the sample json file within the script to its actual location
