@@ -3,18 +3,20 @@
 version: "3.4"
 services:
   app:
-    container_name: create-react-redux
+    container_name: create-react-redux-pg
     build: # build the image
       context: . # build in the current directory
       dockerfile: Dockerfile # Dockerfile in current dir
     restart: always
     ports:
-      - "3000:3000" # Host:Container port mapping; Create-React-App default port listens on 3000
+      - "4000:3000" # Host:Container port mapping; Create-React-App default port listens on 3000
     volumes:
       - ./app:/usr/src/app # Host:Container; map current directory as a local volume to within app container at /usr/src/app (hot reloading)
       - /usr/src/app/node_modules # Make node_modules a volume within the container (necessary for when host directory copies into container)
     depends_on:
       - db # this container will depend on the build of the mongo service below
   db:
-    container_name: mongo
-    image: mongo
+    container_name: postgres
+    image: postgres
+    environment:
+      POSTGRES_PASSWORD: pwd

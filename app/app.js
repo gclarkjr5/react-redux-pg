@@ -3,7 +3,10 @@
 // import libraries
 const express = require('express');
 const bodyParser = require('body-parser');
-const mongoose = require('mongoose');
+
+const { Pool, Client } = require('pg')
+const connectionString = 'postgresql://dbuser:secretpassword@database.server.com:3211/mydb'
+
 
 // create PORT
 const port = process.env.PORT || 8000;
@@ -15,7 +18,7 @@ const routes = require('./routes');
 const app = express();
 
 // connection string to dockerized mongodb at the "greetings" db
-const connectionString = "mongodb://mongo:27017/greetings";
+const connectionString = "postgres://postgres:27017/greetings";
 
 // connect to db
 mongoose.connect(connectionString);
